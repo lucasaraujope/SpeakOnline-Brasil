@@ -1,0 +1,272 @@
+.background-pg6 {
+  background-color: #050A4D;
+  height: auto;
+}
+
+.caixa__about-web{
+  height: auto;
+  background-image: url(/Assets/people.svg);
+  background-size: cover;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  min-width: 32rem;
+  padding: 0 1.5rem 1.5rem 0;
+}
+
+
+.imagem__titulo {
+  width: 18.4rem;
+  height: 6.3rem;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Open Sans;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: normal;
+  margin: 17.5rem auto 0.7rem;
+}
+
+.imagem__texto {
+  height: 4rem;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Open Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: normal;
+  margin: 0 6rem 2.6rem 6.8rem;
+}
+
+.container__informacao {
+  background-image: url(/Assets/Rectangle\ 45.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding: 2.2rem 4rem 2.2rem 5rem;
+}
+
+.informacao__sobre-speak {
+  width: 23rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.informacao__sobre-speak h2 {
+  width: 19.8rem;
+  height: 6.5rem;
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Open Sans;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+  margin: 2.2rem 6rem 1.7rem 0;
+  line-height: normal;
+}
+
+.informacao__sobre-speak p {
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Open Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.check__referencia {
+  margin-top: 2.2rem;
+
+  text-align: center;
+
+}
+
+.check__referencia h2 {
+  width: 17.5rem;
+  height: 6.9rem;
+  text-align: center;
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Open Sans;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+  margin: 0 auto;
+  line-height: normal;
+}
+
+.check__referencia p {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Open Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 6rem auto 2rem;
+  width: 21.2rem;
+  height: 19.2rem;
+}
+
+.logo__topo{
+  display: block;
+}
+
+@media screen and (min-width: 1400px) {
+
+  .wrapper2 {
+    display: flex;
+    max-width: 140rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 9.8rem;
+    padding: 3.3rem 0 2rem 3.8rem;
+  }
+
+  .wrapper2 ul li a {
+    color: #040840;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: bold;
+  }
+
+  .menu-lines,
+  .menu-faketrigger,
+  .logo__topo, .menu ul {
+    display: none;
+  }
+
+  .language-selected:before{
+    margin: 0;
+  }
+
+  .container__informacao{
+    padding: 0;
+  }
+
+  .caixa__about-web {
+    min-width: 140rem;
+    background: url(/Assets/people.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95.9rem;
+    display: flex;
+    flex-direction: column;
+    padding: 40.8rem 72.1rem 23.3rem 14.3rem;
+    gap: 2rem;
+  }
+
+  .imagem__titulo {
+    text-align: left;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 7.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 53rem;
+    height: 19.2rem;
+    margin: 0;
+  }
+
+  .imagem__texto {
+    width: 57.6rem;
+    height: 11.7rem;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    text-align: left;
+  }
+
+  .informacao__sobre-speak {
+    margin: 0 auto;
+    width: 140rem;
+    height: auto;
+  }
+
+  .informacao__sobre-speak h2 {
+    font-size: 7.5rem;
+    width: 109.9rem;
+    margin: 0 17.5rem 8rem 17.3rem;
+    padding-top: 5rem;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 800;
+    line-height: normal;
+    height: auto;
+  }
+
+
+  .informacao__sobre-speak p {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Open Sans;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 98.2rem;
+    height: auto;
+    margin: 0 17.5rem 4rem 17.3rem;
+  }
+
+  .check__referencia {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    min-width: 1400;
+    padding: 0 4rem 0 0;
+  }
+
+  .img__check {
+    width: 44rem;
+    height: 44rem;
+  }
+
+  .check__referencia h2 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 7.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 47.2rem;
+    height: 19.2rem;
+    text-align: left;
+    margin: 0 7rem 4rem 16rem;
+  }
+
+  .check__referencia p {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 70rem;
+    height: 30rem;
+    text-align: left;
+    margin: 0 7rem 4rem 16rem;
+  }
+}

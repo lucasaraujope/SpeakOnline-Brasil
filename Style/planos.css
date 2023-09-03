@@ -1,0 +1,432 @@
+.background-pg3 {
+  background-image: url(/Assets/background-planos.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.wrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-branca-web {
+  display: block;
+}
+
+.menu {
+  display: block;
+  width: 20rem;
+  height: 5rem;
+}
+
+.container__card-de-planos {
+  text-align: center;
+  padding: 11rem 0 10rem 0;
+  height: auto;
+}
+
+.caixa__card1 {
+  width: 24rem;
+  height: 40.6rem;
+  background: #fff;
+  padding-top: 1rem;
+  margin: 0 auto;
+  border-radius: 3rem;
+
+  background: linear-gradient(white, white) padding-box, linear-gradient(160deg, #050A4D, #0081BA 45% 100%) border-box;
+
+  border: 7px solid transparent;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #040840;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+}
+
+.img1-planos {
+  position: absolute;
+  top: -4rem;
+}
+
+.caixa__infos-cards {
+  text-align: center;
+}
+
+.caixa__infos-cards h2 {
+  padding-bottom: 1rem;
+}
+
+.caixa-cards {
+  width: 22rem;
+  margin: 0 auto;
+}
+
+.info__cards {
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem 1rem 0;
+  justify-content: space-between;
+}
+
+.info__cards-3 {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0 0 1rem 0.9rem;
+}
+
+.info__cards-6 {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+  margin: 0 1rem 0 1rem;
+
+}
+
+
+.info__cards img {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 1rem;
+}
+
+.info__cards p,
+.info__cards-3 p,
+.info__cards-6 p {
+  display: flex;
+  text-align: start;
+  color: #040840;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button__plan {
+  display: block;
+  position: absolute;
+  top: 97%;
+  left: 54%;
+  transform: translate(-55%);
+  background: #fff;
+  border: none;
+  width: 15.6rem;
+  height: 2.9rem;
+  box-shadow: 3px 3px 10px #303030;
+}
+
+.button__plan:hover {
+  background: linear-gradient(156deg, #050A4D 0%, #0081BA 100%);
+  width: 70%;
+}
+
+.button__plan a:hover {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.caixa__card2 {
+  margin: 10rem auto 0;
+  width: 24rem;
+  height: 33.7rem;
+  background: #fff;
+  padding-top: 1rem;
+  border-radius: 3rem;
+
+  background: linear-gradient(white, white) padding-box, linear-gradient(160deg, #4AB451, #BFFF22 45% 100%) border-box;
+
+  border: 7px solid transparent;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #040840;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+}
+
+.button__plan2 {
+  display: block;
+  position: absolute;
+  top: 96%;
+  left: 55%;
+  transform: translate(-55%);
+  background: #fff;
+  border: none;
+  width: 15.6rem;
+  height: 2.9rem;
+  box-shadow: 3px 3px 10px #303030;
+}
+
+.button__plan2:hover {
+  background: linear-gradient(156deg, #4AB451 0%, #BFFF22 100%);
+  width: 70%;
+}
+
+.button__plan2 a:hover {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.caixa__card3 {
+  margin: 10rem auto 0;
+  width: 24rem;
+  height: 33.7rem;
+  background: #fff;
+  padding-top: 1rem;
+  border-radius: 3rem;
+
+  background: linear-gradient(white, white) padding-box, linear-gradient(160deg, #EB1650, #EE8DA8 45% 100%) border-box;
+
+  border: 7px solid transparent;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #040840;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+}
+
+.button__plan3 {
+  display: block;
+  position: absolute;
+  top: 97%;
+  left: 55%;
+  transform: translate(-55%);
+  background: #fff;
+  border: none;
+  width: 15.6rem;
+  height: 2.9rem;
+  box-shadow: 3px 3px 10px #303030;
+}
+
+.button__plan3:hover {
+  background: linear-gradient(156deg, #EB1650 0%, #EE8DA8 100%);
+  width: 70%;
+}
+
+.button__plan3 a:hover {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
+
+.caixa__card4 {
+  margin: 10rem auto 0;
+  width: 24rem;
+  height: 33.7rem;
+  background: #fff;
+  padding-top: 1rem;
+  border-radius: 3rem;
+
+  background: linear-gradient(white, white) padding-box, linear-gradient(160deg, #4D30F4, #30B8F4 45% 100%) border-box;
+
+  border: 7px solid transparent;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #040840;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+}
+
+.button__plan4 {
+  display: block;
+  position: absolute;
+  top: 97%;
+  left: 55%;
+  transform: translate(-55%);
+  background: #fff;
+  border: none;
+  width: 15.6rem;
+  height: 2.9rem;
+  box-shadow: 3px 3px 10px #303030;
+  margin-bottom: 2rem;
+}
+
+.button__plan4:hover {
+  background: linear-gradient(156deg, #4D30F4 0%, #30B8F4 100%);
+  width: 70%;
+}
+
+.button__plan4 a:hover {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.menu__web,
+.img__logo {
+  display: none;
+}
+
+.logo-branca-web {
+  display: block;
+}
+
+.butao__planos-web {
+  display: none;
+}
+
+@media screen and (min-width: 1400px) {
+  .container2 {
+    background: #fff;
+    border-radius: 0 0 2.5rem 2.5rem;
+    box-shadow: 2px 3px 5px;
+  }
+
+
+  .wrapper2 {
+    display: flex;
+    max-width: 140rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 9.8rem;
+    padding: 3.3rem 0 2rem 3.8rem;
+  }
+
+  .wrapper2 ul li a {
+    color: #040840;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: bold;
+  }
+
+  .background-pg3 {
+    background-image: url(/Assets/bg-banner1-web.svg);
+    background-size: cover;
+  }
+
+  .caixa__planos-web {
+    display: flex;
+    gap: 4.8rem;
+    margin: 0 7rem 0 7rem;
+    flex-direction: row-reverse;
+  }
+
+  .caixa__card1 {
+    width: 31.2rem;
+    height: 52.7rem;
+  }
+
+  .caixa__card2,
+  .caixa__card3,
+  .caixa__card4 {
+    width: 28.2rem;
+    height: 48.4rem;
+  }
+
+  .caixa__card1,
+  .caixa__card2,
+  .caixa__card3,
+  .caixa__card4 {
+    margin: 0;
+    padding: 1em 0 0 0;
+  }
+
+  .info__cards p,
+  .info__cards-3 p,
+  .info__cards-6 p {
+    color: #040840;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 18.2rem;
+    height: 6.1rem;
+  }
+
+  .img1-planos {
+    width: 80.565px;
+    height: 80px;
+  }
+
+  .button__plan,
+  .button__plan2,
+  .button__plan3,
+  .button__plan4 {
+    display: none;
+  }
+
+  .info__cards-6 {
+    margin-top: 1.5rem;
+  }
+
+  .butao__planos-web {
+    width: 56.8rem;
+    height: 6rem;
+    background: #fff;
+    margin: 5rem auto 0;
+    display: block;
+  }
+
+  .butao__planos-web:hover {
+    width: 60rem;
+    height: 7rem;
+    background: #fff;
+    margin: 5rem auto 0;
+    display: block;
+  }
+
+
+  .butao__planos-web a {
+    font-size: 3rem;
+  }
+
+  .butao__planos-web a:hover {
+    font-size:4rem;
+    color: #040840;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+
+  .info__cards img {
+    width: 3rem;
+    height: 4rem;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu__web,
+  .img__logo {
+    display: block;
+  }
+
+  .logo-branca-web {
+    display: none;
+  }
+}

@@ -1,0 +1,99 @@
+.container {
+  background-image: url(/Assets/background-gradient-lights\ 3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.container__banner1 {
+  min-width: 32rem;
+  height: auto;
+  text-align: left;
+  background-image: url(/Assets/backgroound-onda-contato.svg);
+  background-size: cover;
+}
+
+.banner1__titulo {
+  width: 24.9rem;
+  height: 9.5rem;
+  font-size: 3=4rem;
+  font-weight: 800;
+  color: #FFF;
+  margin: 7rem 3.3rem 0.8rem 4rem;
+}
+
+.banner1__texto {
+  font-size: 1.5rem;
+  width: 20rem;
+  height: 6.2rem;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 7.8rem .9rem 4rem;
+}
+
+.homem__pulando {
+  padding-left: 5rem;
+  width: 32rem;
+}
+
+.menu-web {
+  display: none;
+}
+
+@media (min-width: 1400px) {
+
+  .banner {
+    width: 100%;
+    background-image: url(/Assets/backgroound-onda-contato.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container__banner1 {
+    padding: 11.2rem 15.6rem 6rem 15.6rem;
+    width: 112.8rem;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    background-image: none;
+  }
+
+  .div__web {
+    width: 57rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem;
+  }
+
+  .container__banner1 .banner1__titulo {
+    width: 57.6rem;
+    height: 19.2rem;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Open Sans;
+    font-size: 7.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .banner1__texto {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 57.6rem;
+    height: 19.2rem;
+  }
+
+  .homem__pulando {
+    width: 61rem;
+    height: 70.9rem;
+    padding: 0;
+    margin-top: 6rem;
+  }
+}

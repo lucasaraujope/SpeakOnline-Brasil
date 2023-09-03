@@ -1,0 +1,289 @@
+.container__bonus {
+  min-width: 32rem;
+  height: auto;
+  background-image: url(/Assets/background-bonus.svg);
+  background-size: cover;
+}
+
+.caixa__bonus-titulo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.bonus__titulo {
+  width: 29.2rem;
+  height: 6.3rem;
+  color: #FFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 3.5rem 1.4rem 2.7rem 1.4rem;
+}
+
+.bonus__lista {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+  width: 32rem;
+  height: auto;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+
+}
+
+.bonus__card {
+  background: #fff;
+  text-align: center;
+  width: 8.3rem;
+  height: 11rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bonus__texto,
+.bonus__texto2,
+.bonus__texto3,
+.bonus__texto4,
+.bonus__texto5,
+.bonus__texto6,
+.bonus__texto7,
+.bonus__texto8,
+.bonus__texto9 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.bonus__texto1 {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.caixa-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+
+button {
+  width: 21.4rem;
+  height: 3.3rem;
+  border-radius: 3.5rem;
+  background: linear-gradient(156deg, #7068F4 0%, #77F5E5 100%);
+  box-shadow: 10px 15px 25px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+}
+
+button:hover {
+  background: linear-gradient(156deg, #4D30F4 0%, #30B8F4 100%);
+  width: 26rem;
+  height: 4rem;
+}
+
+button a {
+  text-decoration: none;
+  color: #040840;
+  text-align: center;
+  text-shadow: 10px 10px 25px rgba(255, 255, 255, 0.90);
+  font-family: Open Sans;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+button a:hover {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 1400px) {
+  .bonus__titulo {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-size: 6.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 84rem;
+    height: 18.2rem;
+  }
+
+  .bonus__lista {
+    width: 90rem;
+    height: 24.6rem;
+  }
+
+  .bonus__card {
+    width: 24.5rem;
+    height: 24.5rem;
+    border-radius: 4rem;
+  }
+
+  .nuvem_web {
+    width: 15.4rem;
+    height: 10.5rem;
+  }
+
+  .bonus__texto1 {
+    color: #000;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    width: 17.6rem;
+    height: 6.1rem;
+  }
+
+  .relogio_web {
+    width: 13rem;
+    height: 12.7rem;
+  }
+
+  .bonus__texto2 {
+    color: #000;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    width: 17.4rem;
+    height: 6.2rem;
+  }
+
+  .livro_web {
+    width: 14.1rem;
+    height: 13.5rem;
+  }
+
+  .bonus__texto3 {
+    color: #000;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    width: 22.8rem;
+    height: 6.1rem;
+  }
+
+  .calendario_web {
+    width: 13.6rem;
+    height: 13.5rem;
+  }
+
+  .bonus__texto4 {
+    color: #000;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    width: 17.6rem;
+    height: 6.1rem;
+  }
+
+  .mensagem_web {
+    width: 13.2rem;
+    height: 13.5rem;
+  }
+
+  .bonus__texto5 {
+    color: #000;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    width: 17.6rem;
+    height: 6.1rem;
+  }
+
+  .alvo_web {
+    width: 12.7rem;
+    height: 13.5rem;
+  }
+
+  .bonus__texto6 {
+    color: #000;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    width: 23.4rem;
+    height: 6.1rem;
+  }
+
+  .estrela_web {
+    width: 14.8rem;
+    height: 13.5rem;
+  }
+
+  .bonus__texto7 {
+    color: #000;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    width: 23.4rem;
+    height: 6.9rem;
+  }
+
+  .despertador_web {
+    width: 14.7rem;
+    height: 13.5rem;
+  }
+
+  .bonus__texto8 {
+    color: #000;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    width: 23.2rem;
+    height: 6.1rem;
+  }
+
+  .medalha_web {
+    width: 14.1rem;
+    height: 13.5rem;
+  }
+
+  .bonus__texto9 {
+    color: #000;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: normal;
+    width: 23rem;
+    height: 6.2rem;
+  }
+
+  .caixa-button button a {
+    color: #040840;
+    text-align: center;
+    text-shadow: 10px 10px 25px rgba(255, 255, 255, 0.90);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 38.2rem;
+    height: 4.6rem;
+  }
+
+  .caixa-button button {
+    width: 46.4rem;
+    height: 7rem;
+    margin: 6rem;
+  }
+}

@@ -1,0 +1,29 @@
+@import url(/Style/nav.css);
+@import url(/Style/banner1.css);
+@import url(/Style/banner2.css);
+@import url(/Style/banner3.css);
+@import url(/Style/footer.css);
+@import url(/Style/planos.css);
+@import url(/Style/bonus.css);
+@import url(/Style/materiais-gratuitos.css);
+@import url(/Style/contato.css);
+@import url(/Style/about.css);
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+
+  width: 100vw;
+  height: auto;
+}

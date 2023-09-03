@@ -1,0 +1,94 @@
+.container__banner2 {
+  min-width: 28.4rem;
+  height: auto;
+  margin: 9rem auto 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+}
+
+.banner2__titulo {
+  color: #040840;
+  font-size: 2.2rem;
+  font-weight: 700;
+  width: 26.9rem;
+  height: 5.8rem;
+  line-height: normal;
+  margin: 3rem auto 1.9rem;
+}
+
+.banner2__texto {
+  color: #040840;
+  font-size: 1.5rem;
+  width: 27rem;
+  height: 11rem;
+  line-height: normal;
+  margin-bottom: 2.7rem;
+}
+
+.banner2__btn-compra {
+  padding: 1rem 0.7rem;
+  border-radius: 35px;
+  background: linear-gradient(156deg, #7068F4 0%, #77F5E5 100%);
+  box-shadow: 2px 5px 15px 0px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  color: #040840;
+  text-shadow: 2px 2px 20px #FFF;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1400px) {
+  .banner2-web {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo__numero6-web {
+    width: 327px;
+    height: 427px;
+  }
+
+  .banner2-web__textos {
+    display: flex;
+    flex-direction: column;
+    gap: 3.6rem;
+  }
+
+  .banner2__titulo {
+    color: #040840;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: normal;
+    width: 53.3rem;
+    height: 11.6rem;
+    flex-shrink: 0;
+    text-align: left;
+  }
+
+  .banner2__texto {
+    color: #040840;
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: normal;
+    width: 53.2rem;
+    height: 29.2rem;
+    flex-shrink: 0;
+    text-align: left;
+  }
+
+  .banner2__btn-compra {
+    padding: 1.2rem 4.1rem;
+    color: #040840;
+    text-align: center;
+    text-shadow: 10px 10px 25px rgba(255, 255, 255, 0.90);
+    font-family: Open Sans;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
