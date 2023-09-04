@@ -8,6 +8,8 @@ header {
   display: flex;
   justify-content: space-between;
   height: 6rem;
+  align-items: center;
+
 }
 
 .menu {
@@ -104,16 +106,16 @@ header {
 .logo__topo {
   position: absolute;
   top: 3%;
-  left: 42%;
+  left: 38%;
   transform: translateX(-10%);
 }
 
 .language {
   position: relative;
   width: 12rem;
-  margin-left: 4rem;
   font-weight: bold;
 }
+
 
 .language-selected {
   display: inline-block;
@@ -155,9 +157,13 @@ header {
   background-color: transparent;
   border: none;
   display: none;
-  top: 50%;
-  right: 38%;
-  transform: translateX(80%);
+  top: 60%;
+  left: 80%;
+  transform: translateX(-82%);
+}
+
+.language ul span{
+  width: 30rem;
 }
 
 .language ul li {
@@ -214,7 +220,7 @@ a.es:before {
     justify-content: space-between;
     align-items: center;
     height: 9.8rem;
-    padding: 1.5rem 0 0 1rem;
+    padding: 1rem 0 0 1rem;
   }
 
   .img__logo{
@@ -278,8 +284,8 @@ a.es:before {
     border: none;
     display: none;
     top: 80%;
-    right: 15%;
-    transform: translateX(80%);
+    left: 90%;
+    transform: translateX(-38%);
   }
 
 

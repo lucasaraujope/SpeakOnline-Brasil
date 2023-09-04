@@ -181,7 +181,7 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    width: 53rem;
+    width: 57.6rem;
     height: 19.2rem;
     margin: 0;
   }
@@ -235,8 +235,9 @@
     display: flex;
     flex-direction: row-reverse;
     margin: 0 auto;
-    min-width: 1400;
+    width: 1400;
     padding: 0 4rem 0 0;
+    justify-content: center;
   }
 
   .img__check {
@@ -254,7 +255,7 @@
     width: 47.2rem;
     height: 19.2rem;
     text-align: left;
-    margin: 0 7rem 4rem 16rem;
+    margin: 0 5rem 4rem 17rem;
   }
 
   .check__referencia p {
@@ -267,6 +268,6 @@
     width: 70rem;
     height: 30rem;
     text-align: left;
-    margin: 0 7rem 4rem 16rem;
+    margin: 0 5rem 4rem 17rem;
   }
 }
