@@ -172,7 +172,7 @@ $(function () {
     $(".banner2__texto").text("You will speak English from the FIRST class and in 6 months you will be speaking English safely and confidently, with a vocabulary with more than 60 verbs and 1.600 words");
 
     $(".banner2__btn-compra").text("I want to become a Speak Student");
-    $(".banner3__titulo").text("Know the Method");
+    $(".banner3__titulo").text("Knowing our Method");
     $(".banne3__texto-card1").text("More than 60 verbs and 1,600 vocabularies..  With this content, in approximately 50 hours you will be able to speak confidently and autonomously, asking and understanding questions in the present, past and future.");
     $(".banne3__texto-card2").text("We will present the verb To Be in an uncomplicated and light way. You will learn more than 60 adjectives to use in affirmative, negative, and interrogative sentences, using the verb To Be in the present, past, and present continuous.");
     $(".banne3__texto-card3").text("Now you will learn in another 40 hours how to improve your fluency with the use of modal verbs - can, could, should, would, may, Might, must and many idioms.");
