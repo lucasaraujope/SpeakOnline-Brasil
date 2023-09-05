@@ -181,7 +181,7 @@ $(function () {
 
 
 
-    $(".container__rodape ul:nth-child(1) li:nth-child(1) a").text("Be a Student Speak");
+    $(".container__rodape ul:nth-child(1) li:nth-child(1) a").text("Become a Speak Student");
     $(".container__rodape ul:nth-child(1) li:nth-child(2) a").text("Work With Us");
     $(".container__rodape ul:nth-child(1) li:nth-child(3) a").text("Contact");
     $(".container__rodape ul:nth-child(1) li:nth-child(4) a").text("Lesson Plans");
@@ -223,13 +223,13 @@ $(function () {
     //bonus
     $(".bonus__titulo").text("What do you get from studying at Speak?");
     $(".bonus__texto1").text("Classes of 30min/ day");
-    $(".bonus__texto2").text("Free PDF Materia");
+    $(".bonus__texto2").text("Free PDF Material");
     $(".bonus__texto3").text("Lessons from 2 to 5x a week");
     $(".bonus__texto4").text("Conversation Class");
     $(".bonus__texto5").text("Personalized Study Plan");
     $(".bonus__texto6").text("Masterclass in a Live Group");
-    $(".bonus__texto7").text("Elearning Platform");
-    $(".bonus__texto8").text("Flexible Hours 07a.m to 11p.m");
+    $(".bonus__texto7").text("E-learning Platform");
+    $(".bonus__texto8").text("Flexible Schedule 07a.m to 11p.m");
     $(".bonus__texto9").text(" Guaranteed teaching quality");
 
     $(".caixa-button button:nth-child(1) a").text("Become a Speak Student");
@@ -240,13 +240,13 @@ $(function () {
     $(".imagem__texto").text("An English school with a real focus on YOUR fluency");
 
     $(".informacao__titulo").text("THE ORIGIN OF SPEAK ONLINE");
-    $(".informacao__texto1").text("From the initiative of Professor Nagibe Rosti in the 90s when he returned from the United States, after studying there and living among Americans he was studying methodologies and seeing the strategies used in schools he was teaching.");
-    $(".informacao__texto2").text("The road was one of teacher, coordinator and director of language schools. After writing a series of books called English To Go, with the beginning of the pandemic, he and his partner Wilson started the EAD teaching activity");
-    $(".informacao__texto3").text("Speak Online Brazil since the beginning has been leading hundreds of thousands of students to fluency in English in an autonomous, fluid and confident way in all these years.");
+    $(".informacao__texto1").text("Professor Nagibe Rosti took the initiative in the 1990s when he returned from the United States. After studying there and living among Americans, he studied methodologies and saw the strategies used in the schools he taught in.");
+    $(".informacao__texto2").text("He went on to become a teacher, coordinator and director of language schools. After writing a series of books called English To Go, with the beginning of the pandemic, he and his partner Wilson began their distance learning activities.");
+    $(".informacao__texto3").text("Since its inception, Speak Online Brasil has led hundreds of thousands of students to fluency in English in an autonomous, fluid and confident way over the years..");
 
     $(".check__titulo").text("TEACHING REFERENCE");
 
-    $(".check__texto").text("Our mission is to make a difference in the lives of our students by offering an English teaching focused on the particular reality of each one. Through science and mental strategies we lead each student to fluency in English language orality.");
+    $(".check__texto").text("Our mission is to make a difference in the lives of our students by offering English teaching that is focused on their particular reality. Through science and mental strategies we lead each student to fluency in speaking English.");
 
 
     //Materiais
@@ -274,7 +274,7 @@ $(function () {
     //Contato
     $(".note-e-texto__titulo").text("Do you have any question?");
     $(".note-e-texto__texto").text("No problem. Our team has the answers!");
-    $(".titulo-form").text("Fill out the form and our consultants get in touch with you as soon as possible");
+    $(".titulo-form").text("Fill out the form and our consultants will get in touch with you as soon as possible");
     $(".texto-form").text("If you prefer, send email directly to support@speakonline.com.br")
 
     $(".input__wraper input > placeholder").text("sasnkaosioahsoiasa")
